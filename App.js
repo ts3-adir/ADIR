@@ -16,27 +16,15 @@ import {
   StatusBar,
   ImageBackground,
 } from 'react-native';
- 
-import welcomeSplash from './src/assets/splash.jpeg'
 
+import AppNavigator from './src/services/routes/routes';
+import {ApolloProvider} from 'react-apollo';
+import {apolloClient} from './src/services/api/endpoint';
 
-const App: () => React$Node = () => {
-  return (
-    <>
-      <View>
-        <ImageBackground style={styles.container} source={welcomeSplash} />
-        <Text> Thiago </Text>
-      </View>
-    </>
-  );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: 420,
-    height: 910,
-  },
-});
+const App = () => (
+  <ApolloProvider client={apolloClient}>
+    <AppNavigator />
+  </ApolloProvider>
+);
 
 export default App;
