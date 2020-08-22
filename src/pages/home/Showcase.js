@@ -4,10 +4,11 @@ import {DataContext} from '../welcome/welcome'
 
 const Showcase = () => {
   const categories = useContext(DataContext)
-  console.log('categories log', categories)
+  console.log('xxx', categories)
   return (
     <>
-      <Text> Teste 123 </Text>
+      <Text> Tes  </Text>
+      <Text> Tes  </Text>
     </>
   );
 };
