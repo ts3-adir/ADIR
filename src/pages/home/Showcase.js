@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {Text} from 'react-native';
+import {Text, ScrollView} from 'react-native';
 import {DataContext} from '../welcome/welcome'
 
 const Showcase = () => {
@@ -7,7 +7,9 @@ const Showcase = () => {
 
   return (
     <>
-      <Text> te este 555  </Text>
+      <ScrollView>
+        <Text> te este 555  </Text>
+      </ScrollView>
     </>
   );
 };
