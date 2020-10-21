@@ -10,6 +10,7 @@ const Showcase = () => {
       <ScrollView>
         <Text> te este 555  </Text>
       </ScrollView>
+      <Text> te este 55 666 </Text>
     </>
   );
 };
