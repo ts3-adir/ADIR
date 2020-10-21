@@ -7,17 +7,6 @@ const Showcase = () => {
 
   return (
     <>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
-      <Text> Hahaha  </Text>
       <Text> te este 55 666 </Text>
     </>
   );
