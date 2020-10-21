@@ -16,7 +16,7 @@ const ProductCard = ({
         style={{
           width,
           height,
-          margin: 16,
+          margin: 8,
         }}
         source={{uri: getOptimizedUrl(product.image, {height, width})}}
       />
