@@ -7,7 +7,7 @@ const Showcase = () => {
 
   return (
     <>
-      <Text> te este 55  </Text>
+      <Text> te este 55 666 </Text>
     </>
   );
 };
