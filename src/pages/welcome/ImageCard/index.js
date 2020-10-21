@@ -21,6 +21,16 @@ const ImageCard = ({image, onPress, accessibilityLabel}) => (
         }),
       }}
     />
+        <Image
+      style={styles.image}
+      source={{
+        uri: getOptimizedUrl(image, {
+          width: styles.image.width,
+          height: styles.image.height,
+          fit: FIT.CROP,
+        }),
+      }}
+    />
   </TouchableOpacity>
 )
 ImageCard.propTypes = {
