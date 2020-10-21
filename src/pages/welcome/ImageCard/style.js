@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
     paddingRight: 8,
   },
   image: {
-    width: 129,
-    height: 128,
+    width: 127,
+    height: 130,
     borderRadius: 8,
   },
 })

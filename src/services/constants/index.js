@@ -15,7 +15,7 @@ export const cardType = Object.freeze({
   export const productCardVisualizationsTypes = Object.freeze({
     ONE_PER_LINE: 'ONE_PER_LINE',
     TWO_PER_LINE: 'TWO_PER_LINE',
-    CAROUSEL: 'CAROUSEL',
+
   })
   
   export const timelimeStatustType = Object.freeze({
