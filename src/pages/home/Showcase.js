@@ -9,6 +9,7 @@ const Showcase = () => {
     <>
       <ScrollView>
         <Text> te este valor 22 23</Text>
+        <Text> te este 66 69 </Text>
       </ScrollView>
       <Text> te este 55 666 </Text>
     </>
